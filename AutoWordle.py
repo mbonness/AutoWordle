@@ -16,9 +16,9 @@ def read_from_clipboard():
 class SolutionsList:
     def __init__(self):
         # read word list from file
-        # 3/31 switch from 2k to 12k dictionary because of new words
+        # 4/8/23 switched from 2k to 3k dictionary because of new words
         # added by NYT editor
-        f = open("wordle-all_2022-02-15.txt", "r")
+        f = open("wordle-all_curated.txt", "r")
         self.__wordlist = f.readlines()
 
     def getwordlist(self):
