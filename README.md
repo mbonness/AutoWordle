@@ -1,5 +1,7 @@
 # AutoWordle
  Automated Wordle playing bot.  Uses NY Times allowed word list and scrape of previous answers to compile a basic vocabulary, then scores the words based on how frequently individual letters occur in the word dictionary.  The bot opens a Chrome window using Selenium and enters the guesses, then clicks the Share button to send the results in a text message using Twilio.
+ 
+ Video: https://www.youtube.com/shorts/QdjO_Y_JXmE
 
  Originally this used the 2k solutions list published by the NY Times but due to recent changes where the Wordle editor is now adding new words, we can no longer rely on that list.  In fact, the solutions.txt file hosted on the NY Times' website has been gutted so there is no longer an "official" list of possible solutions.  WordleBot 1.0 used to link to solutions.txt and sometimes dinged players for using words that were not a possible solution.
 
